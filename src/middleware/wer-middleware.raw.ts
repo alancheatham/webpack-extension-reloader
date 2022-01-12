@@ -44,7 +44,7 @@
       switch (type) {
         case SIGN_RELOAD:
           logger("Detected Changes. Reloading ...");
-          reloadPage && window.location.reload();
+          reloadPage && location.reload();
           break;
 
         case SIGN_LOG:
@@ -118,7 +118,7 @@
       switch (type) {
         case SIGN_CHANGE:
           logger("Detected Changes. Reloading ...");
-          reloadPage && window.location.reload();
+          reloadPage && location.reload();
           break;
 
         case SIGN_LOG:
